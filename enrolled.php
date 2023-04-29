@@ -36,7 +36,7 @@ include "sidebar.php";
                   include "add_stud.php";
                   ?>
                   
-                  <button type="button" class="btn btn-primary rounded-pill" id="update-btn">
+                  <button type="button" class="btn btn-primary rounded-pill" id="update-button">
                   Update
                   </button>
 
@@ -92,6 +92,7 @@ include "sidebar.php";
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
   
 
 </body>
