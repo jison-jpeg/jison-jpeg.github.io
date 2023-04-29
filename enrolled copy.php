@@ -51,7 +51,7 @@ include "sidebar.php";
                   <h5 class="card-title">Enrollments <span>| Main Campus</span></h5>
 
                   <?php
-                  include "enrollstatus.php";
+                  include "enroll_info.php";
                   ?>
 
                 </div>

@@ -37,7 +37,7 @@ include "sidebar.php";
               <div class="card-body">
                 <h5 class="card-title">Recent Enrollments <span>| Main Campus</span></h5>
                 <?php
-                include "enrollstatus.php"
+                include "enroll_info.php"
                   ?>
               </div>
 
@@ -87,5 +87,4 @@ include "sidebar.php";
 <script src="assets/js/main.js"></script>
 
 </body>
-
 </html>

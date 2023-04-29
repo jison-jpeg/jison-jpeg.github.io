@@ -30,15 +30,15 @@ include "sidebar.php";
 
                 <div class="card-body" id="top-buttons">
                 <button type="button" class="btn btn-primary rounded-pill" data-bs-toggle="modal" data-bs-target="#ExtralargeModal">
-                    Add
+                    Enroll Student
                   </button>
                   <?php
                   include "add_stud.php";
                   ?>
                   
-                  <button type="button" class="btn btn-primary rounded-pill" id="update-button">
+                  <!-- <button type="button" class="btn btn-primary rounded-pill" id="update-button">
                   Update
-                  </button>
+                  </button> -->
 
                   <!-- <a href="students.html" class="btn btn-primary rounded-pill">Update</a> -->
                 </div>
@@ -47,7 +47,7 @@ include "sidebar.php";
                   <h5 class="card-title">Enrollments <span>| Main Campus</span></h5>
 
                   <?php
-                  include "enrollstatus.php";
+                  include "enroll_info.php";
                   ?>
 
                 </div>
