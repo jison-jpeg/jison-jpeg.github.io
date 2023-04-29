@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Student -  BukSU SIS</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+  <!-- =======================================================
+  * Template Name: NiceAdmin
+  * Updated: Mar 09 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span class="d-none d-lg-block">BukSU SIS</span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+    <!--Preloader-->
+    <div id="preloader">
+      <div id="spinner"></div>
+    </div>
+    
+
+    
+    <!-- <div class="search-bar">
+      <form class="search-form d-flex align-items-center" method="POST" action="#">
+        <input type="text" name="query" placeholder="Search" title="Enter search keyword">
+        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+      </form>
+    </div> -->
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <!-- <li class="nav-item d-block d-lg-none">
+          <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+          </a>
+        </li> -->
+
+        <!-- <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-bell"></i>
+            <span class="badge bg-primary badge-number">4</span>
+          </a>
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+            <li class="dropdown-header">
+              You have 4 new notifications
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-exclamation-circle text-warning"></i>
+              <div>
+                <h4>Lorem Ipsum</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>30 min. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-x-circle text-danger"></i>
+              <div>
+                <h4>Atque rerum nesciunt</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>1 hr. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-check-circle text-success"></i>
+              <div>
+                <h4>Sit rerum fuga</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>2 hrs. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-info-circle text-primary"></i>
+              <div>
+                <h4>Dicta reprehenderit</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>4 hrs. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li class="dropdown-footer">
+              <a href="#">Show all notifications</a>
+            </li>
+
+          </ul>
+        </li> -->
+
+        <!-- <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-chat-left-text"></i>
+            <span class="badge bg-success badge-number">3</span>
+          </a>
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+            <li class="dropdown-header">
+              You have 3 new messages
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-1.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>Maria Hudson</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>4 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-2.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>Anna Nelson</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>6 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-3.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>David Muldon</h4>
+                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                  <p>8 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="dropdown-footer">
+              <a href="#">Show all messages</a>
+            </li>
+
+          </ul>
+
+        </li> -->
+
+        <li class="nav-item dropdown pe-3">
+          <button type="button" class="btn btn-light rounded-pill" data-bs-toggle="dropdown">
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" >
+            <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+            <span class="d-none d-md-block dropdown-toggle ps-3">Jayson T.</span>
+          </a><!-- End Profile Iamge Icon -->
+        </button>
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+            <li class="dropdown-header">
+              <h6>Jayson Tadayca</h6>
+              <span>Admin</span>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-person"></i>
+                <span>My Profile</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-gear"></i>
+                <span>Account Settings</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+                <i class="bi bi-question-circle"></i>
+                <span>Need Help?</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sign Out</span>
+              </a>
+            </li>
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+    <ul class="sidebar-nav" id="sidebar-nav">
+    <li class="nav-heading">MENU</li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="index.html">
+          <i class="bi bi-grid"></i>
+          <span>Dashboard</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-person"></i><span>Students</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="forms-nav" class="nav-content collapse show" data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="student.html" class="active">
+              <i class="bi bi-circle"></i><span>Enrollment Status</span>
+            </a>
+          </li>
+          <li>
+            <a href="enrolled.html">
+              <i class="bi bi-circle"></i><span>Enrolled Students</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Student Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#">
+          <i class="bi bi-layout-text-window-reverse"></i>
+          <span>Instructors</span>
+        </a>
+      </li><!-- End Instructors Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#">
+          <i class="bi bi-bar-chart"></i>
+          <span>Colleges</span>
+        </a>
+      </li><!-- End Colleges Nav -->
+
+      <li class="nav-heading">Information</li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="users-profile.html">
+          <i class="bi bi-person"></i>
+          <span>Profile</span>
+        </a>
+      </li>
+      <!-- End Profile Page Nav -->
+    </ul>
+
+  </aside>
+  <!-- End Sidebar-->
+
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>Enrollment Status</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item">Students</li>
+          <li class="breadcrumb-item active">Enrollment Status</li>
+
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section dashboard">
+      <div class="row">
+
+        <!-- Left side columns -->
+        <div class="col-lg-8">
+          <div class="row">
+
+            <!-- Sales Card -->
+            <div class="col-xxl-4 col-md-6">
+              <div class="card info-card sales-card">
+                <div class="card-body">
+                  <h5 class="card-title">Pending</h5>
+
+                  <div class="d-flex align-items-center">
+                    <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                      <i class="bi bi-dash-circle"></i>
+                    </div>
+                    <div class="ps-3">
+                      <h6>145</h6>
+                      <span class="text-muted small pt-2 ps-1">Enrollments</span>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <!-- End Sales Card -->
+
+            <!-- Revenue Card -->
+            <div class="col-xxl-4 col-md-6">
+              <div class="card info-card revenue-card">
+
+                <div class="card-body">
+                  <h5 class="card-title">Approved</h5>
+
+                  <div class="d-flex align-items-center">
+                    <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                      <i class="bi bi-check-circle"></i>
+                    </div>
+                    <div class="ps-3">
+                      <h6>3</h6>
+                      <span class="text-muted small pt-2 ps-1">Enrollments</span>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <!-- End Revenue Card -->
+
+            <!-- Customers Card -->
+            <div class="col-xxl-4 col-xl-12">
+
+              <div class="card info-card customers-card">
+
+                <div class="card-body">
+                  <h5 class="card-title">Rejected</h5>
+
+                  <div class="d-flex align-items-center">
+                    <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                      <i class="bi bi-x-circle"></i>
+                    </div>
+                    <div class="ps-3">
+                      <h6>1244</h6>
+                      <span class="text-muted small pt-2 ps-1">Enrollments</span>
+
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+            <!-- End Customers Card -->
+
+            <!-- Recent Sales -->
+            <div class="col-12">
+              <div class="card recent-sales overflow-auto">
+
+                
+                <!--TOP BUTTONS-->
+                <!-- <div class="card-body" id="top-buttons">
+                    <a href="students.html" class="btn btn-primary rounded-pill">Approved</a>
+                    <a href="students.html" class="btn btn-primary rounded-pill">Pending</a>
+                    <a href="students.html" class="btn btn-primary rounded-pill">Rejected</a>
+                </div> -->
+
+                <div class="card-body" id="top-buttons">
+                  <!--Vertical Add Student Modal-->
+                  <button type="button" class="btn btn-primary rounded-pill" data-bs-toggle="modal" data-bs-target="#ExtralargeModal">
+                    Add Student
+                  </button>
+                  <div class="modal fade" id="ExtralargeModal" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title">Add Student</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <form class="row g-3">
+                            <div class="col-md-6">
+                              <label for="inputName5" class="form-label">Last Name</label>
+                              <input type="text" class="form-control" id="inputName5">
+                            </div>
+                            <div class="col-md-6">
+                              <label for="inputName5" class="form-label">First Name</label>
+                              <input type="text" class="form-control" id="inputName5">
+                            </div>
+                            <div class="col-md-6">
+                              <label for="inputEmail5" class="form-label">Institutional Email</label>
+                              <input type="email" class="form-control" id="inputEmail5">
+                            </div>
+                            <div class="col-md-6">
+                              <label for="inputPassword5" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="inputPassword5">
+                            </div>
+                            <div class="col-12">
+                              <label for="inputAddress5" class="form-label">Address</label>
+                              <input type="text" class="form-control" id="inputAddres5s" placeholder="1234 Syre Highway">
+                            </div>
+                            <div class="col-md-6">
+                              <label for="inputCity" class="form-label">City</label>
+                              <input type="text" class="form-control" id="inputCity">
+                            </div>
+                            <div class="col-md-6">
+                              <label for="inputCity" class="form-label">Province</label>
+                              <input type="text" class="form-control" id="inputCity">
+                            </div>
+                            <div class="col-md-12">
+                              <label for="inputState" class="form-label">Course</label>
+                              <select id="inputState" class="form-select" onchange="updateChoices()">
+                                  <option selected>Choose...</option>
+                                  <option value="ug">Undergraduate Programs</option>
+                                  <option value="grad">Graduate Programs</option>
+                              </select>
+                          </div>
+                          <div class="col-md-12" id="courseList">
+                              <label for="courses" class="form-label">Courses</label>
+                              <select id="courses" class="form-select">
+                                  <option selected>Please select an option above</option>
+                              </select>
+                          </div>
+                          <script>
+                              function updateChoices() {
+                                  const courseList = document.getElementById('courseList');
+                                  const courses = document.getElementById('courses');
+                                  const selectedOption = document.getElementById('inputState').value;
+                                  
+                                  if (selectedOption === 'ug') {
+                                      courseList.style.display = 'block';
+                                      courses.innerHTML = `
+                                          <option value="ca">College of Administration</option>
+                                          <option value="cas">College of Arts and Sciences</option>
+                                          <option value="cb">College of Business</option>
+                                          <option value="ce">College of Education</option>
+                                          <option value="cn">College of Nursing</option>
+                                          <option value="ct">College of Technology</option>
+                                      `;
+                                  } else if (selectedOption === 'grad') {
+                                      courseList.style.display = 'block';
+                                      courses.innerHTML = `
+                                          <option value="mba">Master of Business Administration (MBA)</option>
+                                          <option value="med">Master of Education (MEd)</option>
+                                          <option value="msn">Master of Science in Nursing (MSN)</option>
+                                          <option value="msit">Master of Science in Information Technology (MSIT)</option>
+                                          <option value="phd">Doctor of Philosophy (PhD)</option>
+                                      `;
+                                  } else {
+                                      courseList.style.display = 'none';
+                                      courses.innerHTML = '<option selected>Please select an option above</option>';
+                                  }
+                              }
+                          </script>
+                          
+                            <div class="text-center">
+                              <button type="submit" class="btn btn-primary">Submit</button>
+                              <button type="reset" class="btn btn-secondary">Reset</button>
+                            </div>
+                          </form>                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <a href="students.html" class="btn btn-primary rounded-pill">Update Status</a>
+                  <a href="students.html" class="btn btn-primary rounded-pill">Delete</a>
+                  <div class="box">
+                    <form name="search">
+                        <input type="text" class="input" name="txt" onmouseenter="this.placeholder = 'Search User ID';" onmouseout="this.value = '';">
+                    </form>
+                    <i class="ri-search-line"></i>
+
+                </div>
+              </div>
+
+                <div class="card-body">
+                  <h5 class="card-title">Enrollments <span>| Main Campus</span></h5>
+
+                  <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th scope="col">#ID</th>
+                        <th scope="col">Student</th>
+                        <th scope="col">College</th>
+                        <th scope="col">Course</th>
+                        <th scope="col">Year</th>
+                        <th scope="col">Status</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row"><a href="#">#2457</a></th>
+                        <td>Jayson Tadayca</td>
+                        <td>COT</td>
+                        <td><a href="#" class="text-primary">Bachelor of Science in Information Technology</a></td>
+                        <td>2</td>
+                        <td><span class="badge bg-warning">Pending</span></td>
+                      </tr>
+                      <tr>
+                        <tr>
+                          <th scope="row"><a href="#">#2457</a></th>
+                          <td>Jayson Tadayca</td>
+                          <td>COT</td>
+                          <td><a href="#" class="text-primary">Bachelor of Science in Information Technology</a></td>
+                          <td>2</td>
+                          <td><span class="badge bg-warning">Pending</span></td>
+                        </tr>
+                        <tr>
+                          <tr>
+                            <th scope="row"><a href="#">#2457</a></th>
+                            <td>Jayson Tadayca</td>
+                            <td>COT</td>
+                            <td><a href="#" class="text-primary">Bachelor of Science in Information Technology</a></td>
+                            <td>2</td>
+                            <td><span class="badge bg-warning">Pending</span></td>
+                          </tr>
+                          <tr>
+                            <tr>
+                              <th scope="row"><a href="#">#2457</a></th>
+                              <td>Jayson Tadayca</td>
+                              <td>COT</td>
+                              <td><a href="#" class="text-primary">Bachelor of Science in Information Technology</a></td>
+                              <td>2</td>
+                              <td><span class="badge bg-warning">Pending</span></td>
+                            </tr>
+                            <tr>
+                              <tr>
+                                <th scope="row"><a href="#">#2457</a></th>
+                                <td>Jayson Tadayca</td>
+                                <td>COT</td>
+                                <td><a href="#" class="text-primary">Bachelor of Science in Information Technology</a></td>
+                                <td>2</td>
+                                <td><span class="badge bg-warning">Pending</span></td>
+                              </tr>
+                              <tr>
+                                
+                        <th scope="row"><a href="#">#2147</a></th>
+                        <td>Zsaffina Pearl Gepana</td>
+                        <td>COT</td>
+                        <td><a href="#" class="text-primary">Bachelor of Science in Information Technology</a></td>
+                        <td>2</td>
+                        <td><span class="badge bg-warning">Pending</span></td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="#">#2049</a></th>
+                        <td>Jeffrey Calbatera</td>
+                        <td>COT</td>
+                        <td><a href="#" class="text-primary">Bachelor of Science in Education Major in P.E</a></td>
+                        <td>2</td>
+                        <td><span class="badge bg-warning">Pending</span></td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="#">#2644</a></th>
+                        <td>Rey Ivan Dionaldo</td>
+                        <td>COT</td>
+                        <td><a href="#" class="text-primar">Bachelor of Science in Hospitality Management</a></td>
+                        <td>1</td>
+                        <td><span class="badge bg-warning">Pending</span></td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                </div>
+
+              </div>
+            </div><!-- End Recent Sales -->
+
+          </div>
+        </div><!-- End Left side columns -->
+
+        <!-- Right side columns -->
+        <div class="col-lg-4">
+          <!-- Bar Chart -->
+          <!-- <div id="barChart"></div>
+
+          <script>
+            document.addEventListener("DOMContentLoaded", () => {
+              new ApexCharts(document.querySelector("#barChart"), {
+                series: [{
+                  data: [400, 430, 448, 470, 540, 580, 690, 1100, 1200, 1380]
+                }],
+                chart: {
+                  type: 'bar',
+                  height: 350
+                },
+                plotOptions: {
+                  bar: {
+                    borderRadius: 4,
+                    horizontal: true,
+                  }
+                },
+                dataLabels: {
+                  enabled: false
+                },
+                xaxis: {
+                  categories: ['South Korea', 'Canada', 'United Kingdom', 'Netherlands', 'Italy', 'France', 'Japan',
+                    'United States', 'China', 'Germany'
+                  ],
+                }
+              }).render();
+            });
+          </script> -->
+          <!-- End Bar Chart -->
+
+          <!-- Column Chart -->
+          
+          
+        <!-- End Right side columns -->
+
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="copyright">
+      &copy; <strong><span>2023 BSIT-2A</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
+      Designed by <a href="https://drive.google.com/file/d/14KmDqLFTK40AZcdzus7Fo1bs7ByUgkv5/preview">Troubleshooters</a>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.umd.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
