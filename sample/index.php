@@ -50,6 +50,12 @@
 	</table>
 	<p><a href="add.php">Add Student</a></p>
 	<button id="update-button">Update</button>
-	
+	<script>
+		$(document).ready(function() {
+			$("#update-button").click(function() {
+				$(".action").show();
+			});
+		});
+	</script>
 </body>
 </html>
